@@ -1,0 +1,215 @@
+<html>
+
+<head>
+    <title>School Website for everyone</title>
+    <!--Insert link for bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--This is for the menu bar-->
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <!--Make the navigation at the header section-->
+        <div class="navbar-header">
+            <!--Create a button to make the website responsive so if the screen is like a iphone,the is still a button for the menu bar-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--This is for the home section-->
+            <a class="navbar-brand" href="#">Village School</a>
+        </div>
+
+        <!--This is for the links that we have to make for the menu bar-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#achievments">Achievements</a></li>
+                <li><a href="#life">Campus Life</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Make a div tag for marquee-->
+    <div class="intro">
+        <marquee id="news">*Welcome to my School Website! Let's start exploring!*</marquee>
+        <center>
+            <!--Make the image right under the marquee-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8VcXfThUPxhnX3HBFBCafmuyO9HtXv5X-Wj4rahDFG5iqyHMyOlzcVQpz-R7ECbn08r8&usqp=CAU" width="800px">
+        </center>
+    </div>
+    <!--Make a container for bootstrap-->
+    <div class="container">
+        <!-- This means this will make the page at the header section-->
+        <div class="page-header" id="achievments">
+            <!--Make the class="text-capitalize" so that it will captalize the 1st letter in every word-->
+            <h2 class="text-capitalize">School Achievments</h2>
+        </div>
+        <!--make the background color to this-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#basketball">
+            Won The First Inter Basketball Compitition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="basketball" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://www.nba.com/resources/static/team/v2/timberwolves/media/mntw-academic-achievement-191017.png" class="img-responsive img-thumbnail" width="350" height="300">
+            </div>
+            <!-- Make the stars-->
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                <h5 class="text-success text-left text-capitalize">Hard Work and fun!
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                </h5>
+                <p>We promote physical excellence in our students through motivation and constant training. Village School fields have the necessary requirements for the optimal development of their skills in football, basketball, track and field, volleyball and baseball.</p>
+            </div>
+        </div>
+        <br>
+        <!--Second Drop-down-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#leadership">
+            AASCA Leadership and Service Experience<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="leadership" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://village.edu.gt/wp-content/uploads/2019/06/51464813_1025192424339284_3378638673393221632_n-768x512.jpg" class="img-responsive img-thumbnail" width="350" height="300">
+            </div>
+            <!-- Make the stars-->
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                <h5 class="text-success text-left text-capitalize">Hard Work and fun!
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                </h5>
+                <p>We promote physical excellence in our students through motivation and constant training. Village School fields have the necessary requirements for the optimal development of their skills in football, basketball, track and field, volleyball and baseball.</p>
+            </div>
+        </div>
+        <br>
+        <!--Third Drop-down-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#acdamic">
+            Village is going to England!<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="acdamic" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://village.edu.gt/wp-content/uploads/2019/04/wee-768x576.jpg" class="img-responsive img-thumbnail" width="350" height="300">
+            </div>
+            <!-- Make the stars-->
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                <h5 class="text-success text-left text-capitalize">Really Fun!
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                    <span class="glyphicon glyphicon-star">
+                    </span>
+                </h5>
+                <p>World English Experience (WEE) is an English program organized by Oxford International Education Group (OIEG). During two weeks, our students will have English lessons instructed by qualified EFL teachers. Also, they will participate in a series of educational events and competitions whilst being exposed to British history and culture.</p>
+            </div>
+        </div>
+
+        <!-- Make another div tag for the section "Campus Life"-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="page-header" id="life">
+            <h2 class="text-capitalize">campus life</h2>
+            <div class="row">
+                <div class="campuslife_maindiv">
+                    <!--Give appropriate classes below for the image img-responsive-->
+                    <!--1st Campus Life-->
+                    <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Crete%2C_Nebraska_Sacred_Heart_Church_-_St_James_School.JPG" width="800" height="800">
+                    <h4 class="text-capitalize"><kbd>our school church</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success and text-left-->
+                    <h5 class="text-success text-left text-capitalize">was established in 1999</h5>
+                    <p class="text-muted text-left">Our Church is blessed with our gods so we study with blessings. We sometimes come here to explore more of our church</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="campuslife_maindiv">
+                    <img class="img-reponsive" src="C:\Users\dolle\Pictures\Saved%20Pictures\library.jpg" width="800" height="800">
+                    <h4 class="text-capitalize"><kbd>our school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">was established in 1882</h5>
+                    <p class="text-muted text-left">We have hundreds and thousands and millions of books! our librarian, Mrs.Struabel is a very kind teacher. We make a kind friendship with another.</p>
+                    <!--3rd Campus Life-->
+                </div>
+                <div class="campuslife_maindiv">
+                    <img class="img-reponsive" src="https://c8.alamy.com/comp/AAEYPP/primary-school-canteen-with-children-eating-lunch-AAEYPP.jpg" width="800" height="300">
+                    <!--Give text-capitalize to make every single words letter capital-->
+                    <h4 class="text-capitalize"><kbd>our school canteen</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">was established in 1978 </h5>
+                    <p class="text-muted text-left">Our School Canteen is very large and full of friendship.</p>
+                </div>
+            </div>
+        </div>
+        <!--Start The Section What's New?-->
+        <div class="page-header" id="new">
+            <h2>What's New?</h2>
+        </div>
+        <div class="row">
+            <h4>
+                <mark clas="header_entreprenpur">
+                    <h5 class="text-success text-left text-capitalize">our new school canteen</h5>
+                    <style>
+                        .img{
+                            float:left
+                        }
+                    </style>
+                    <p class="text-success" style="font-size:12px;"><img class="img" src="https://c8.alamy.com/comp/PAP4C7/pupils-having-lunch-in-school-canteen-PAP4C7.jpg" alt="Canteen" class="img-responsive" style="width:300px; height:300px; margin-right:15px;" >
+                    Beach Bites Canteen is owned and operated by the MVPS P and C as a service to the families of Manly Village Public School. Canteen Manager Lori and her staff, Diane and Attracta aim to provide fresh, healthy and affordable food on a daily basis to all Manly Village children.The canteen provides a uniqueopportunity for children to interact with different adults, use money and also practice patience and use their beautiful manners during their transactions.The canteen prides itself on providing support to all children everyday.</p>
+                </mark>
+            </h4>
+            <!--Second New-->
+            <h4>
+                <mark clas="header_entreprenpur">
+                    <h5 class="text-success text-left text-capitalize">our new school playground</h5>
+                    <style>
+                        .img{
+                            float:left
+                        }
+                    </style>
+                    <br>
+                    <p class="text-success" style="font-size:12px;"><img class="img" src="https://www.colonialsd.org/uploaded/News_2018-2019/Student_Spotlight/Monkey_Bars1.jpg" alt="Playground" class="img-responsive" style="width:300px; height:300px; margin-right:15px;">The school formed a playground committee to develop a proposal to present to the HFEE Trustees.  Their work included speaking with current students to understand their interests as they relate to the types of equipment installed and interviewing providers specializing in playground construction. Dr. Dineen Seeley, Director of Curriculum and Instruction for Holmdel Schools, who led the committee noted, “The Playground Committee researched and selected pieces that afford play opportunities for individuals as well as small and large groups of children with varied interests and abilities”. General Recreation Inc. (GRI), a provider with over 40 years of experience located in Newtown Square, PA, was selected to provide the equipment and perform the installation of the playground as a part of the proposal prepared.The committee and GRI determined that the ideal location for the playground would be behind the school in close proximity to the building providing an extremely safe venue given the distance to roads in all directions.  This location would also make the playground accessible to children while the baseball and softball fields are in use.
+                   </p>
+                </mark>
+            </h4>
+        </div>
+        <!--New and final section Alumni-->
+        <div class="page-header" id="alumni">
+        
+        </div>
+    </div>
+</body>
+</html>

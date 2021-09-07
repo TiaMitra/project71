@@ -1,0 +1,43 @@
+#news {
+    background-color: skyblue;
+    color: black;
+}
+
+.campuslife_maindiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid;
+    border-color: aliceblue;
+}
+.campuslife_maindiv h5, .campuslife_maindiv p{
+    margin-left:20px;
+}
+.campuslife_maindiv hr{
+    width:100%;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    display: none;
+  background-color: #f1f1f1;
+     padding: 0 18px;
+}
+.bg-primary movie_head {}
+  overflow: hidden;
+
+/*img {
+  float: left;
+   padding-right: 20px;
+    background-color: papayawhip;
+}
+  
+    p {
+     background-color: papayawhip;
+        text-align: justify;
+    }*/
+/*Style the image*/
+#img{
+    float:left;
+    padding-right: 20px;
+}
